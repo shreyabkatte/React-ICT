@@ -1,11 +1,12 @@
 import React from "react";
-import "../index.css"
+import "./index.css"
+import logo from "../../img/logo.png"
 
 const Tabs = () => {
   return (
   <header className="header-section">
-		<div className="container">
-			<a href="index.html" className="site-logo"><img src="" alt="" /></a>
+		<div className="tabs-container container" >
+			<a href="index.html" className="site-logo"><img src={logo} alt="" /></a>
 			<div className="nav-switch">
 				<i className="fa fa-bars"></i>
 			</div>

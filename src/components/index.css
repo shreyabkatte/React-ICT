@@ -245,6 +245,7 @@ ol {
 }
 
 .set-bg {
+  z-index : -1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0;
@@ -510,8 +511,8 @@ ol {
 /*---------------------
 	About Section
 -----------------------*/
-.about-content h2 {
-  margin-bottom: 30px;
+.about-section{
+  display: flex;
 }
 
 .about-content .site-btn {

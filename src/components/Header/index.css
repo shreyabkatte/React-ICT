@@ -245,6 +245,7 @@ ol {
 }
 
 .set-bg {
+  z-index : -1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0;
@@ -257,6 +258,7 @@ ol {
 /* header top */
 .top-nav-section {
   background: #3c1919;
+  position:"fxied";
   padding: 15px 0;
 }
 

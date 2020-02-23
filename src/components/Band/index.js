@@ -1,9 +1,10 @@
 import React from "react";
+import "./index.css"
 
 const Band = () => {
   return(
 
-     <section className="event-section">
+     <section className="event-section band-center">
         <div className="container">
           <div className="row" style={{ alignItems: "center", display: "flex"}}>
             <div className="col-sm-8 col-md-8 col-lg-8">

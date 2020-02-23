@@ -1,17 +1,24 @@
 import React from "react";
 import "../index.css";
-import bannerImg from "../../img/bg.jpg"
-
+import bannerImg from "../../img/bg.jpg";
 
 const Banner = () => {
   return (
     <section className="hero-section set-bg" >
-      {/* <img src={bannerImg} /> */}
-      <div className="hero-content">
+      <img src={bannerImg} />
+      <div
+        className="hero-content"
+        style={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)"
+        }}
+      >
         <div className="hc-inner">
           <div className="container">
             <h2>Indian Community Toulouse</h2>
-            <p style={{fontStyle: "italic"}}>
+            <p style={{ fontStyle: "italic" }}>
               Integrating diversified cultures!!
             </p>
             <a
